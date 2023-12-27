@@ -1,0 +1,75 @@
+/* body{
+  background-color: rgb(231, 229, 229);
+} */
+
+.container {
+    /* This will push .back to the left and .search to the right */
+   background-image: url('https://www.visitpasadena.com/imager/s3_us-west-1_amazonaws_com/pasadena-2020/images/Food-Drink/ALLEN_BONE_KETTLE_050217-39_4739c54e174f66b55f651ecc1534086d.jpg');
+   /* background-image: url("https://wallpapercave.com/wp/wp10322996.jpg"); */
+   /* height: 0vh; */
+   background-size: cover;
+   background-position: center center;
+ }
+ .containerf{
+   display: flex;
+   justify-content: space-between;
+ }
+ 
+ .back {
+  margin: 5px;
+ 
+ }
+
+.hero{
+  height: 80%;
+  width: 50%;
+  float: right;
+  
+}
+
+ .search:hover{
+   background-color: rgb(31, 157, 96);
+ }
+ 
+ 
+ .search {
+   height: 40px;
+   width: 200px;
+   color: white;
+   background-color: rgb(33, 186, 113);
+   border: none;
+   border-radius: 2%;
+   margin: 5px;
+ }
+
+ .containerHistory{
+   display: inline;
+
+   
+ } 
+
+ .history {
+   display: inline-block; 
+   margin: 5% 10% ;
+   width: 12%;
+   height: 10vh;
+   padding-top: 25px;
+   text-align: center;
+   border-radius: 5%;
+   background-color: white;
+   
+ }
+
+ .logo{
+   margin-top: 2%;
+   margin-left: 5%;
+ }
+
+ span{
+   color: rgb(255,127,9);
+   
+ }
+ .moto{
+   margin-left: 6%;
+   margin-top: 0;
+ }

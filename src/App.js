@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import {useState, useEffect} from 'react';
+
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Navbar from './Navbar'; // Import your Navbar component
+import Categories from './Category'; // Import your Categories component
+import DishList from './DishList'; // Import your DishList component
+import Result from './Result'; // Import your Result component
+import Search from './Search'; // Import your Result component
+import {Link} from "react-router-dom"
+import Home from './Home'
 
 function App() {
+ 
+      
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+<div>
+      <Routes>
+        <Route path="/" element={<Home/>} />
+        <Route path="/dishchoice" element={<DishList/>} />
+      </Routes>
+      </div>
   );
 }
 
